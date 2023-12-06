@@ -1,0 +1,21 @@
+{
+  "name": "insta-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.15.0",
+    "xlsx": "^0.18.5"
+  },
+  "pkg":{
+    "scripts": "build/**/*.js",
+    "assets": "data/**/*",
+    "targets": [ "node14-win" ],
+    "outputPath": "dist"	
+  }
+}
